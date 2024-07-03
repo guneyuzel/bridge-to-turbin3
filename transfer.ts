@@ -10,7 +10,7 @@ import {
 
 import wallet from "./dev-wallet.json";
 
-const from = Keypair.fromSecretKey(new Uint8Array(wallet));
+const from = Keypair.fromSecretKey(new Uint8Array(wallet)); //Import your "Solana Wallet Secret" to the dev-wallet.json to fix the error.
 const to = new PublicKey("EyQiDRP7Pz4w6G7viieZyQCJPT7F2kbiEzfJsM1tMaJ7"); //Enter the wallet that you want to send the SOL to.
 const connection = new Connection("https://api.devnet.solana.com");
 
