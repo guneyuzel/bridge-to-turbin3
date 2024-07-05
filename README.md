@@ -38,6 +38,7 @@ Follow these steps to set up and run the project:
 
 
 3. **Run the Project**
+
    Use the following command to run the desired file:
     ```bash
    npm run <desired-file>
